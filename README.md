@@ -8,3 +8,4 @@ There are four files in this directory, of which 1.patch and 2.patch are require
 ### 1.3 Compile the kernel
 Use OSes/linux-target/.config_6.4.10 as the kernel compilation configuration file, and then run the "make" command to compile the kernel. If you have customized compilation requirements, you can change the configuration options according to the version and requirements, but be sure to keep "CONFIG_KCOV=y".
 ## 2. Static vulnerability analysis
+slow slow slow write...........
