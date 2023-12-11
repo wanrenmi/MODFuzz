@@ -1,5 +1,5 @@
-# A multi-objective directed fuzzer for USB kernel drivers
-MODFuzz is a multi-objective directed fuzzer for USB kernel drivers. It is mainly divided into three parts: kernel source code preprocessing, static vulnerability analysis, and multi-objective directed fuzzing.
+# A multi-objective directed fuzzer for USB drivers
+MODFuzz is a multi-objective directed fuzzer for USB drivers. It is mainly divided into three parts: kernel source code preprocessing, static vulnerability analysis, and multi-objective directed fuzzing.
 ## 1. Kernel source code preprocessing
 ### 1.1 Download the kernel source code of the target version. 
 Next we take v6.4.10 as an example.
