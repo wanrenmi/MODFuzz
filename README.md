@@ -21,7 +21,7 @@ Since MODFuzz uses the framework of USBFuzz, the environment preparation is simi
 ### 3.1 Preparing a Linux userspace image
 scripts/create-image.sh -f full
 ### 3.2 Build the fuzzer and qemu
-sudo apt-get update
+sudo apt-get update 
 sudo apt-get build-dep qemu
 ./build.sh
 After the guest system is up, copy OSes/linux-target/user-mode-agent to the guest system and run install.sh in the guest system.
